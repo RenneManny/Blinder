@@ -158,7 +158,7 @@ h2 {
 p {
     font-size: 1rem;
     padding-top: 1rem;
-
+    color: #4B5563;
 }
 
 .col1>.btn {
@@ -179,14 +179,17 @@ p {
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
     color: #1F2937;
+    padding-left :2rem; ;
     padding-bottom: 7.25rem;
 }
-.padding{
+
+.padding {
     padding-top: 3rem;
 }
+
 .flex4 {
     display: flex;
-    
+
     flex: 0 1 48%;
     flex-wrap: wrap;
 }
@@ -194,61 +197,77 @@ p {
 .min-flex {
     display: flex;
     gap: 1rem;
-  
+
 }
 
 .left {
     text-align: left;
     /* flex: 0 1 48%; */
 }
+
 /* section-3 */
 
-.sec-3{
+.sec-3 {
     text-align: center;
     padding: 5rem 2rem;
     border-top: 1px solid #E5E7EB;
     background-color: #FEFAFA;
     font-family: 'Nunito Sans', sans-serif;
     padding-bottom: 8.25rem;
-   background-color: #FCFBFE;
+    background-color: #FCFBFE;
 }
-.min-flex > img{
+
+.min-flex>img {
     max-width: 100px;
     height: 70px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
-.sec-3 >.min-flex{
+
+.sec-3>.min-flex {
     align-items: center;
 }
-.btn3{
+
+.btn3 {
     margin-top: 2rem;
     display: inline-block;
 }
-/* footer-section */
+/* footer */
 footer{
-    /* border-top: 1px solid #E5E7EB; */
     background-color: #FCFBFE;
-    padding-bottom:3rem ;
 }
-footer nav{
-    border-top: 1px solid #E5E7EB;
-}
-footer i{
+.foot-icn i{
+   color: #9CA3AF;
     border: none;
-    font-size: 1.25rem;
+    font-size: 2rem;
+    
+}
+.foot-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    
+}
+/*second-page*/
+.form-flex{
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-flex a{
+    color: #4F46E5;
 }
 
- p{
-      font-size: 1rem;
-    padding-top: 1rem; 
-    font-family: 'Nunito Sans', sans-serif;
-}
-/* media */
+
+/* media-query */
 @media screen and (min-width:250px) and (max-width:768px) {
 
     .flex,
     .flex2,
-    .flex3,.min-flex {
+    .flex3,
+    .min-flex,
+    .foot-flex{
         flex-wrap: wrap;
     }
 
@@ -258,7 +277,8 @@ footer i{
 
     .col,
     .col1,
-    .flex4,.left {
+    .flex4,
+    .left {
         flex: 0 1 100%;
     }
 
