@@ -199,9 +199,50 @@ p {
 
 .left {
     text-align: left;
-    flex: 0 1 48%;
+    /* flex: 0 1 48%; */
+}
+/* section-3 */
+
+.sec-3{
+    text-align: center;
+    padding: 5rem 2rem;
+    border-top: 1px solid #E5E7EB;
+    background-color: #FEFAFA;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-bottom: 8.25rem;
+   background-color: #FCFBFE;
+}
+.min-flex > img{
+    max-width: 100px;
+    height: 70px;
+    border-radius: 50%; 
+}
+.sec-3 >.min-flex{
+    align-items: center;
+}
+.btn3{
+    margin-top: 2rem;
+    display: inline-block;
+}
+/* footer-section */
+footer{
+    /* border-top: 1px solid #E5E7EB; */
+    background-color: #FCFBFE;
+    padding-bottom:3rem ;
+}
+footer nav{
+    border-top: 1px solid #E5E7EB;
+}
+footer i{
+    border: none;
+    font-size: 1.25rem;
 }
 
+ p{
+      font-size: 1rem;
+    padding-top: 1rem; 
+    font-family: 'Nunito Sans', sans-serif;
+}
 /* media */
 @media screen and (min-width:250px) and (max-width:768px) {
 
