@@ -175,11 +175,12 @@ p {
 }
 
 .sec-2 {
+    padding:5rem 0 2rem 2rem ;
     background-color: #FEFAFA;
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
     color: #1F2937;
-    padding-left :2rem; ;
+  
     padding-bottom: 7.25rem;
 }
 
@@ -194,71 +195,108 @@ p {
     flex-wrap: wrap;
 }
 
+/* review section */
+.diff {
+    padding-top: 8rem;
+}
+
+.diff a {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.sec-3 {
+    padding: 5rem 2rem;
+    border-top: 1px solid #E5E7EB;
+    background-color: #FDFBFF;
+}
+
+.sec-3 .container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    margin-top: 5rem;
+}
+
+
+.box {
+    padding: 2rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    background-color: #FCFBFE;
+    text-align: left;
+    flex-basis: 350px;
+    flex-grow: 1;
+}
+
+.min-flex img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
 .min-flex {
     display: flex;
     gap: 1rem;
-
 }
 
 .left {
     text-align: left;
-    /* flex: 0 1 48%; */
+    flex: 0 1 48%;
 }
 
-/* section-3 */
-
-.sec-3 {
-    text-align: center;
-    padding: 5rem 2rem;
-    border-top: 1px solid #E5E7EB;
-    background-color: #FEFAFA;
-    font-family: 'Nunito Sans', sans-serif;
-    padding-bottom: 8.25rem;
-    background-color: #FCFBFE;
+.min-flex {
+    display: flex;
 }
 
-.min-flex>img {
-    max-width: 100px;
-    height: 70px;
-    border-radius: 50%;
-}
-
-.sec-3>.min-flex {
-    align-items: center;
+.min-flex p {
+    padding-top: 0;
 }
 
 .btn3 {
     margin-top: 2rem;
     display: inline-block;
 }
+
 /* footer */
-footer{
+footer {
     background-color: #FCFBFE;
+    margin-top: 5rem;
 }
-.foot-icn i{
-   color: #9CA3AF;
+
+.foot-icn i {
+    color: #9CA3AF;
     border: none;
     font-size: 2rem;
-    
+
 }
-.foot-flex{
+
+.foot-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3rem 2rem;
-    
+
 }
+
 /*second-page*/
-.form-flex{
+.form-flex {
     font-family: 'Nunito Sans', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.form-flex a{
+
+.form-flex a {
     color: #4F46E5;
 }
 
+.col2 {
+    flex: 1 1 50%;
+}
 
 /* media-query */
 @media screen and (min-width:250px) and (max-width:768px) {
@@ -267,7 +305,8 @@ footer{
     .flex2,
     .flex3,
     .min-flex,
-    .foot-flex{
+    .foot-flex,
+    .form-flex {
         flex-wrap: wrap;
     }
 
@@ -278,6 +317,8 @@ footer{
     .col,
     .col1,
     .flex4,
+    .left,
+    .col2,
     .left {
         flex: 0 1 100%;
     }
@@ -288,6 +329,12 @@ footer{
 
     .col {
         padding-top: 2rem;
+    }
+    footer{
+        text-align: center;
+    }
+    .foot-icn i {
+        text-align: center;
     }
 
 }
