@@ -323,7 +323,7 @@ footer {
         flex: 0 1 100%;
     }
 
-    .sec-1 {
+    .sec-1,.sec-2 {
         padding-top: 1rem;
     }
 
