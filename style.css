@@ -175,7 +175,7 @@ p {
 }
 
 .sec-2 {
-    padding:5rem 0 2rem 2rem ;
+    
     background-color: #FEFAFA;
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
@@ -241,6 +241,7 @@ p {
 .min-flex {
     display: flex;
     gap: 1rem;
+   
 }
 
 .left {
